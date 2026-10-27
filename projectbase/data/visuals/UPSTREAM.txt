@@ -1,0 +1,7 @@
+Resources and tileset templates from Quote58/Project-Base-0.8-Randomizer
+https://github.com/Quote58/Project-Base-0.8-Randomizer/tree/911273cafd7d5cabec2ea4e8458a52a91b95081a
+Extracted from the pinned upstream source, without a game ROM.
+Fonts: Bob. PB Extended palettes: Grime.
+Hack palettes: Phazon Hack, Hallowseve, Final Stand, Hangtime, Lost World,
+Vanilla++, Hyper Metroid, Ice Metal (see upstream README credits).
+These resources are optional, original suit palettes come from the user's ROM.

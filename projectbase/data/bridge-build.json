@@ -1,0 +1,139 @@
+{
+  "asar": "1.91",
+  "ips_sha256": "d4945e1c95d50f9274bde0656969f780d340c434e840ffd685974319791ab65e",
+  "source_sha256": {
+    "main.asm": "1c82f715c1666f2d2088cf88bcebf7abb853717530d490fb74f84f1942947df3",
+    "items.asm": "e61aad9f77881543135f7972c80c58075ff111b0dc9da56e7eae6e3067bbe0fd",
+    "qol.asm": "5be7a7ca214b457c8aa08cc300db95f91f8955a08b6dbe0e33a1a4bcad5ce782"
+  },
+  "blocks": [
+    {
+      "offset": 1683,
+      "size": 3
+    },
+    {
+      "offset": 65565,
+      "size": 4
+    },
+    {
+      "offset": 93914,
+      "size": 1
+    },
+    {
+      "offset": 95690,
+      "size": 1
+    },
+    {
+      "offset": 97809,
+      "size": 4
+    },
+    {
+      "offset": 97895,
+      "size": 4
+    },
+    {
+      "offset": 162128,
+      "size": 608
+    },
+    {
+      "offset": 163968,
+      "size": 4
+    },
+    {
+      "offset": 254388,
+      "size": 3
+    },
+    {
+      "offset": 258212,
+      "size": 3
+    },
+    {
+      "offset": 364874,
+      "size": 4
+    },
+    {
+      "offset": 497511,
+      "size": 2
+    },
+    {
+      "offset": 497600,
+      "size": 2
+    },
+    {
+      "offset": 523410,
+      "size": 20
+    },
+    {
+      "offset": 557639,
+      "size": 2
+    },
+    {
+      "offset": 557661,
+      "size": 2
+    },
+    {
+      "offset": 557746,
+      "size": 2
+    },
+    {
+      "offset": 557768,
+      "size": 2
+    },
+    {
+      "offset": 1152401,
+      "size": 2
+    },
+    {
+      "offset": 1152432,
+      "size": 2
+    },
+    {
+      "offset": 1152466,
+      "size": 2
+    },
+    {
+      "offset": 1152492,
+      "size": 2
+    },
+    {
+      "offset": 3671157,
+      "size": 3
+    },
+    {
+      "offset": 3671424,
+      "size": 3
+    },
+    {
+      "offset": 3702528,
+      "size": 41
+    },
+    {
+      "offset": 3702784,
+      "size": 8
+    },
+    {
+      "offset": 3703040,
+      "size": 772
+    },
+    {
+      "offset": 3706880,
+      "size": 193
+    },
+    {
+      "offset": 3710976,
+      "size": 9216
+    },
+    {
+      "offset": 3735552,
+      "size": 16896
+    },
+    {
+      "offset": 3753984,
+      "size": 2184
+    },
+    {
+      "offset": 3756544,
+      "size": 512
+    }
+  ]
+}

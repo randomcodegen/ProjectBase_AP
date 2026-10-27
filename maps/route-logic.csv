@@ -1,0 +1,13 @@
+﻿logic_room_id,area,changed_pickups,incoming_rooms,cross_area_incoming,room_entry_rule,route_notes
+$8F:9BC8,Brinstar,#1 Missile (Brinstar below Early Supers); #2 Super Missile (Brinstar Early Supers),$8F:9AD9; $8F:9C07,,,
+$8F:9D19,Brinstar,#3 Missile (Big Pink Brinstar top); #4 Missile (Big Pink Brinstar Charge Missiles); #7 Energy Tank (Pink Brinstar under Charge Beam); #12 Power Bomb (Pink Brinstar Power Bombs),$8F:9CB3; $8F:9D9C; $8F:9E52; $8F:A0A4; $8F:A0D2; $8F:A130; $8F:A184; $8F:A2CE,,,
+$8F:A0D2,Brinstar,#5 Charge Beam,$8F:9D19,,,
+$8F:9E52,Brinstar,#6 Missile (Brinstar Pipe Missiles),$8F:9D19; $8F:9E9F; $8F:9FBA; $8F:A107,,,
+$8F:A37C,Brinstar,#8 Power Bomb (Beta Power Bomb Room),$8F:A322,,,
+$8F:B40A,Norfair,#9 Missile (Mickey Mouse),$8F:B3A5; $8F:B4AD,,,
+$8F:CA08,Wrecked Ship,#10 Missile (Wrecked Ship Spike Room),$8F:93FE; $8F:CAF6,Crateria $8F:93FE,,
+$8F:A107,Brinstar,#11 Missile (Blue Brinstar First Missiles),$8F:9E52; $8F:9F11; $8F:9F64,,,
+$8F:9C5E,Brinstar,#13 Missile (western Green Bullshaft),$8F:9C35; $8F:9C89; $8F:9F11,,,
+$8F:95A8,Crateria,#14 Power Bomb (Crateria-Maridia Connector),$8F:957D; $8F:95D4; $8F:968F,,,
+$8F:CAAE,Wrecked Ship,#15 Super Missile (Wrecked Ship-Maridia Connector),$8F:CD13,,,
+$8F:9E11,Brinstar,#16 Missile (Southwest Brinstar Connector),$8F:9D19; $8F:9F11; $8F:A253,,,

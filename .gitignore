@@ -1,0 +1,43 @@
+# Keep other development tools local
+/tools/*
+!/tools/build_base_rom.py
+!/tools/BASE_ROM.md
+
+# Generated build outputs
+/dist/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ap-test-deps/
+.references/
+.env
+.env.*
+host.yaml
+*.zip
+*.SaveRAM
+*.sfc
+*.smc
+*.srm
+*.sav
+*.State
+*.state
+*.appb
+*.archipelago
+*.apsave
+*.multidata
+*.multisave
+*.log
+*.dll
+*.exe
+*.so
+*.dylib
+# Generated previews
+maps/**/*.png
+maps/*.html
+maps/*.svg
+
+# Local work
+/local/

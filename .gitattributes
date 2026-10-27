@@ -1,0 +1,5 @@
+# Preserve bytes used by the bundled assembly build manifests.
+*.asm -text
+*.ips binary
+*.bin binary
+*.apworld binary
