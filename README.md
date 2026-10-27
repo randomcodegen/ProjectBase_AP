@@ -2,27 +2,7 @@
 
 Archipelago integration source for **Project Base 0.8.4.2**.
 
-## Repository contents
-
-| Path | Purpose |
-| --- | --- |
-| `projectbase/` | Apworld source, logic, SNI integration, ASM and bundled patch data |
-| `tools/` | Published IPS graphics-stripping and base-ROM reconstruction utility and guide |
-| `tests/` | Regression tests |
-| `maps/` | CSV worksheets for reviewing checks and routes |
-| `requirements-dev.txt` | Dependencies for local graphics tools and tests |
-
 This source checkout includes the apworld and the standalone base-ROM reconstruction utility.
-
-## Development setup
-
-Run all commands below from this repository's root folder, using Python 3.10 or newer.
-
-```powershell
-python -m pip install -r requirements-dev.txt
-```
-
-The standalone ROM reconstruction tool uses only Python's standard library.
 
 ## Installation
 See the [setup guide](projectbase/docs/setup_en.md)
@@ -38,6 +18,15 @@ The final-goal predicate is conservative.
 Experimental FX, Flood and Party modes change physical behavior beyond what the route logic models.
 
 DeathLink, entrance randomization, alternate goals and the source randomizer's alternate Vanilla Map are not implemented.
+
+## Repository contents
+
+| Path | Purpose |
+| --- | --- |
+| `projectbase/` | Apworld source, logic, SNI integration, ASM and bundled patch data |
+| `tools/` | Published IPS graphics-stripping and base-ROM reconstruction utility and guide |
+| `tests/` | Regression tests |
+| `maps/` | CSV worksheets for reviewing checks and routes |
 
 ## Credits
 
