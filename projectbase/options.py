@@ -229,18 +229,10 @@ class TextFont(Choice):
     option_shuffle = 1
     option_braille = 2
     option_upside_down = 3
-    option_galactic = 4
-    option_wingdings = 5
-    option_runescape = 6
-    option_star_wars = 7
     option_bad_kerning = 8
     option_chozo = 9
     option_greek = 10
-    option_hylian = 11
-    option_klingon = 12
     option_leet_speak = 13
-    option_lord_of_the_rings = 14
-    option_minecraft = 15
     default = 0
 
 

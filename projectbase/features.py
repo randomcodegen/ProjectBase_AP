@@ -51,25 +51,25 @@ TECHNIQUES = {
     "underwater_wall_jump": "kRCanWaterWJ",
     "backflip_crumble": "kRCanBackflip",
 }
-TEXT_FONTS = (
-    "Original",
-    "Shuffle",
-    "Brail",
-    "UpsideDown",
-    "Galactic",
-    "WingDings",
-    "RuneScape",
-    "StarWars",
-    "BadKerning",
-    "Chozo",
-    "Greek",
-    "Hylian",
-    "Klingon",
-    "LeetSpeak",
-    "LotR",
-    "Minecraft",
-)
-NUMBER_FONTS = ("Original", "Shuffle", "Roman", "Analogue", "Dice", "Binary", "Tallies")
+TEXT_FONTS = {
+    0: "Original",
+    1: "Shuffle",
+    2: "Brail",
+    3: "UpsideDown",
+    8: "BadKerning",
+    9: "Chozo",
+    10: "Greek",
+    13: "LeetSpeak",
+}
+NUMBER_FONTS = {
+    0: "Original",
+    1: "Shuffle",
+    2: "Roman",
+    3: "Analogue",
+    4: "Dice",
+    5: "Binary",
+    6: "Tallies",
+}
 SUIT_POOLS = {
     "vanilla": ("Power", "Varia", "Gravity"),
     "pb_expanded": ("Slate", "Phazon", "White", "Grime", "Green", "Fusion"),
@@ -146,10 +146,11 @@ def validate_features(features=None, *, complete=False):
         ("hud", 7),
         ("bomb_timer", 2),
         ("pause_screen", 2),
-        ("text_font", len(TEXT_FONTS) - 1),
-        ("number_font", len(NUMBER_FONTS) - 1),
     ):
         if type(result[name]) is not int or not 0 <= result[name] <= end:
+            raise ValueError(f"Invalid Project Base choice: {name}")
+    for name, fonts in (("text_font", TEXT_FONTS), ("number_font", NUMBER_FONTS)):
+        if type(result[name]) is not int or result[name] not in fonts:
             raise ValueError(f"Invalid Project Base choice: {name}")
     for name, allowed in (
         ("gameplay_features", GAMEPLAY),
@@ -411,7 +412,7 @@ def apply_features(rom, base, features, seed, player):
     for key, fonts in (("text_font", TEXT_FONTS), ("number_font", NUMBER_FONTS)):
         choice = features[key]
         if choice == 1:
-            choice = rng.randrange(2, len(fonts))
+            choice = rng.choice([value for value in fonts if value > 1])
         if choice:
             rom[:] = apply_ips(
                 rom, (DATA / f"visuals/gfxFont{fonts[choice]}.ips").read_bytes()

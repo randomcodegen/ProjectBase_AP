@@ -47,6 +47,9 @@ Edit the `Project Base:` section in your YAML.
 | Mystery pickup graphics | `mystery_items` (AP messages still identify rewards) |
 | Experimental modes (no logic support) | `shuffle_room_fx`, `flood_mode`, `party_rando` (default off) |
 
+Text font choices are `original`, `shuffle`, `braille`, `upside_down`,
+`bad_kerning`, `chozo`, `greek`, and `leet_speak`.
+
 Technique names are `wall_jump`, `infinite_bomb_jump`, `heat_run`, `mochball`,
 `super_missile_jump`, `underwater_wall_jump`, and `backflip_crumble`.  
 Tank requirements accept `preset` or 0–14 pickups.  
