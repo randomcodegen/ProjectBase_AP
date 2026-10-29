@@ -7,6 +7,8 @@ from zipfile import ZipFile
 from .ips import apply_ips
 from .difficulty import apply_difficulty
 
+APWORLD_VERSION = "1.0.0"
+
 ARCHIVE_SHA256 = "4cdd024d7f65d94969417337ac78ab595250653d3d1cad236e76240aad14a293"
 PATCH_SHA256 = "71e03d4e8202c368a42de174d498658c035838823fbc6955c1b912b983bfdae7"
 VANILLA_SHA256 = "12b77c4bc9c1832cee8881244659065ee1d84c70c3d29e6eaf92e6798cc2ca72"

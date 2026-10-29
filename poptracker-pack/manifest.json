@@ -1,0 +1,15 @@
+{
+  "name": "Project Base",
+  "game_name": "Project Base",
+  "package_uid": "projectbase_ap",
+  "package_version": "1.0.0",
+  "platform": "snes",
+  "min_poptracker_version": "0.34.0",
+  "target_poptracker_version": "0.34.0",
+  "variants": {
+    "standard": {
+      "display_name": "Project Base AP",
+      "flags": ["ap", "lorom"]
+    }
+  }
+}

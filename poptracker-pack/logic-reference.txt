@@ -1,0 +1,249 @@
+1. Maridia / Missile (Draygon) / $8F:D72A
+   kRCanAccessAquaduct & ( kRGrappleBeam | kRSpaceJump | kRCanWallJump )
+2. Norfair / Missile (Bubble Mountain) / $8F:AD5E
+   kRCanAccessNorfair
+3. Norfair / Missile (Wave/LN Escape Missiles) / $8F:AD5E
+   kRCanAccessNorfair & ( kRHiJumpBoots | kRCanWallJump )
+4. Norfair / Wave Beam / $8F:AD5E
+   kRCanAccessNorfair & kRCanOpenMissile & ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump | ( kRCanUseBomb & kRCanIBJ ) )
+5. Crateria / Power Bomb (Crateria surface) / $8F:93AA
+   kRCanUsePB & ( kRSpeedBooster | kRSpaceJump | ( kRCanUseBomb & kRCanIBJ ) )
+6. Crateria / Missile (Crateria moat) / $8F:95FF
+   kRCanAccessWS
+7. Crateria / Missile (Crateria 1st gauntlet missiles) / $8F:965B
+   kRGauntlet
+8. Crateria / Bomb / $8F:9804
+   kRCanOpenMissile & kRMorphingBall
+9. Crateria / Energy Tank (Crateria terminator) / $8F:990D
+   kRCanEnterPassages
+10. Crateria / Missile (Crateria Map Station Missiles) / $8F:9994
+   kRCanOpenMissile & kRMorphingBall
+11. Crateria / Missile (Crateria 2st gauntlet missiles) / $8F:99BD
+   kRGauntlet
+12. Crateria / Energy Tank (Crateria gauntlet) / $8F:99BD
+   kRGauntlet
+13. Crateria / Super Missile (Crateria supers) / $8F:89D0
+   kRCanUsePB & kRSpeedBooster
+14. Crateria / Missile (Crateria Final Missiles) / $8F:9A90
+   kRCanEnterPassages
+15. Brinstar / Power Bomb (Brinstar Etecoons) / $8F:9AD9
+   kRCanMeetEtecoons
+16. Brinstar / Missile (Brinstar below Early Supers) / $8F:9BC8
+   kRCanAccessGB & kRCanOpenMissile & kRMorphingBall
+17. Brinstar / Super Missile (Brinstar Early Supers) / $8F:9BC8
+   kRCanAccessGB & kRCanOpenMissile & ( kRCanSpeedball | ( kRMorphingBall & kRCanMochball ) | ( kRMorphingBall & kRDashBall ) )
+18. Brinstar / Reserve Tank (Brinstar Reserve) / $8F:9C07
+   kRCanAccessGB & kRCanOpenMissile & ( kRCanSpeedball | ( kRMorphingBall & kRCanMochball ) | ( kRMorphingBall & kRDashBall ) )
+19. Brinstar / Missile (Brinstar Reserve Ron Popeil Missiles) / $8F:9C07
+   kRCanAccessGB & kRCanOpenMissile & kRCanEnterPassages & ( kRCanSpeedball | ( kRMorphingBall & kRCanMochball ) | ( kRMorphingBall & kRDashBall ) )
+20. Brinstar / Missile (Brinstar Reserve Missiles) / $8F:9C07
+   kRCanAccessGB & kRCanOpenMissile & ( kRCanSpeedball | ( kRMorphingBall & kRCanMochball ) | ( kRMorphingBall & kRDashBall ) )
+21. Brinstar / Missile (Big Pink Brinstar top) / $8F:9D19
+   kRCanAccessPB & ( kRGrappleBeam | kRSpaceJump | kRSpeedBooster | kRCanWallJump )
+22. Brinstar / Missile (Big Pink Brinstar Charge Missiles) / $8F:9D19
+   kRCanAccessPB
+23. Brinstar / Charge Beam / $8F:A0D2
+   kRCanAccessPB
+24. Brinstar / Missile (Brinstar Pipe Missiles) / $8F:9E52
+   kRCanAccessPB | kRCanEnterPassages
+25. Brinstar / Morphing Ball / $8F:9E9F
+   No equipment requirement
+26. Brinstar / Power Bomb (Blue Brinstar) / $8F:9E9F
+   kRCanUsePB
+27. Brinstar / Energy Tank (Pink Brinstar under Charge Beam) / $8F:9D19
+   kRCanAccessPB & kRCanUsePB & kRSpeedBooster
+28. Brinstar / Energy Tank (Pink Brinstar Hoppers Room) / $8F:A15B
+   kRCanAccessPB & kRCanUsePB
+29. Brinstar / Power Bomb (Beta Power Bomb Room) / $8F:A37C
+   kRCanAccessRB & kRSupers & kRCanUsePB
+30. Brinstar / Power Bomb (Alpha Power Bomb Room) / $8F:A3AE
+   kRCanAccessRB & kRSupers
+31. Brinstar / Missile (Alpha Power Bomb Room) / $8F:A3AE
+   kRCanAccessRB & kRCanDestroyBomb
+32. Brinstar / Spazer / $8F:A447
+   kRCanAccessRB & kRSupers
+33. Wrecked Ship / Gravity Suit / $8F:C98E
+   kRCanAccessWS & ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump )
+34. Wrecked Ship / Reserve Tank (Wrecked Ship Reserves) / $8F:C98E
+   kRCanAccessWS & ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump )
+35. Wrecked Ship / Missile (Wrecked Ship Reserves) / $8F:C98E
+   kRCanAccessWS & ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump )
+36. Norfair / Ice Beam / $8F:A890
+   kRCanAccessIce
+37. Norfair / Missile (Crocomire) / $8F:A98D
+   kRCanAccessCroc & ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump )
+38. Norfair / Hi-Jump Boots / $8F:A9E5
+   kRCanAccessRB & kRCanEnterPassages
+39. Norfair / Missile (Hi-Jump Boots) / $8F:AA41
+   kRCanAccessRB & kRCanEnterPassages
+40. Norfair / Energy Tank (Hi-Jump Boots) / $8F:AA41
+   kRCanAccessRB & kRCanEnterPassages
+41. Norfair / Missile (Speed Booster) / $8F:ACF0
+   kRCanAccessNorfair
+42. Norfair / Speed Booster / $8F:AD1B
+   ( kRCanAccessNorfair & kRCanOpenMissile ) | ( kRCanAccessNorfair & kRCanUsePB )
+43. Norfair / Missile (Gold Torizo) / $8F:B283
+   kRCanAccessNorfair & kRCanUsePB & kRChargeBeam
+44. Norfair / Super Missile (Gold Torizo) / $8F:B283
+   kRCanAccessNorfair & kRCanUsePB & kRChargeBeam
+45. Norfair / Missile (Mickey Mouse) / $8F:B40A
+   kRCanAccessLN & kRCanEnterPassages
+46. Norfair / Missile (Spring Ball Maze) / $8F:B510
+   kRCanAccessLN & kRCanEnterPassages
+47. Norfair / Power Bomb (Spring Ball Maze) / $8F:B55A
+   kRCanAccessLN & kRCanEnterPassages
+48. Norfair / Power Bomb (Power Bombs of Shame) / $8F:B5D5
+   kRCanAccessLN & kRCanEnterPassages
+49. Norfair / Missile (FrankerZ) / $8F:B656
+   kRCanAccessLN & kRCanEnterPassages
+50. Norfair / Screw Attack / $8F:B6C1
+   kRCanAccessLN & kRCanUsePB
+51. Norfair / Energy Tank (Lower Norfair Fire Flea E-tank) / $8F:B6EE
+   kRCanAccessLN & kRSupers & ( kRSpaceJump | kRCanWallJump )
+52. Wrecked Ship / Missile (Wrecked Ship Attic) / $8F:CA52
+   kRCanAccessWS
+53. Wrecked Ship / Missile (Wrecked Ship Spike Room) / $8F:CA08
+   kRCanAccessWS
+54. Wrecked Ship / Energy Tank (Wrecked Ship) / $8F:CC27
+   kRCanAccessWS & ( kRGrappleBeam | kRSpaceJump | kRCanWallJump )
+55. Wrecked Ship / Missile (Wrecked Ship Map Station Missiles) / $8F:CCCB
+   kRCanAccessWS & ( kRIceBeam | kRHiJumpBoots | kRSpaceJump )
+56. Wrecked Ship / Super Missile (Wrecked Ship left) / $8F:CDA8
+   kRCanAccessWS
+57. Wrecked Ship / Super Missile (Wrecked Ship right) / $8F:CDF1
+   kRCanAccessWS
+58. Maridia / Missile (Maridia Main Street) / $8F:CFC9
+   kRCanAccessRB & kRGravitySuit & kRSpeedBooster
+59. Maridia / Super Missile (Maridia Crab Supers) / $8F:CFC9
+   kRCanAccessMaridia
+60. Maridia / Energy Tank (Maridia Turtles) / $8F:D055
+   kRCanAccessMaridia & ( kRSpaceJump | kRGrappleBeam | kRSpeedBooster )
+61. Maridia / Missile (Maridia Turtles) / $8F:D055
+   kRCanAccessMaridia
+62. Maridia / Missile (Maridia Map Station Missiles Corridor) / $8F:D3B6
+   kRCanAccessRB
+63. Maridia / Missile (Maridia Beach Missiles) / $8F:D1DD
+   kRCanAccessMaridia & ( kRHiJumpBoots | kRSpaceJump | kRGravitySuit | ( kRCanIBJ & kRCanUseBomb ) | ( kRCanSuperJump & kRSupers ) )
+64. Maridia / Plasma Beam / $8F:D2AA
+   kRCanAccessMaridia
+65. Maridia / Spring Ball / $8F:D6D0
+   kRCanAccessMaridia & ( kRSpaceJump | kRCanWallJump )
+66. Maridia / Space Jump / $8F:D913
+   kRCanAccessAquaduct & ( kRGrappleBeam | kRSpaceJump | kRCanWallJump )
+67. Norfair / Energy Tank (Ridley) / $8F:B698
+   kRCanAccessLN & kRCanUsePB & kRSupers
+68. Brinstar / Missile (Blue Brinstar First Missiles) / $8F:A107
+   kRMorphingBall
+69. Brinstar / Missile (Blue Brinstar middle) / $8F:9F64
+   kRMorphingBall & kRCanOpenMissile
+70. Brinstar / Energy Tank (Blue Brinstar) / $8F:9F64
+   kRCanOpenMissile
+71. Brinstar / Dash Ball (Blue Brinstar upper Billy Mays) / $8F:9F64
+   kRCanOpenMissile & kRMorphingBall & ( kRSpaceJump | kRCanWallJump | ( kRBomb & kRCanIBJ ) )
+72. Brinstar / Missile (Blue Brinstar lower Billy Mays) / $8F:9F64
+   kRCanOpenMissile & kRMorphingBall
+73. Brinstar / Missile (Blue Brinstar Ceiling tile) / $8F:9F64
+   kRCanOpenMissile & ( kRHiJumpBoots | kRSpaceJump | kRSpeedBooster | ( kRCanUseBomb & kRCanIBJ ) )
+74. Crateria / Missile (Underwater outside Wrecked Ship) / $8F:93FE
+   kRCanAccessWS
+75. Crateria / Missile (outside Wrecked Ship top) / $8F:93FE
+   kRCanAccessWS
+76. Crateria / Missile (outside WS under super block) / $8F:93FE
+   kRCanAccessWS
+77. Norfair / Grapple Beam / $8F:AC2B
+   ( kRCanAccessRB & kRCanEnterPassages ) | kRCanAccessCroc
+78. Norfair / Missile (Left Grapple Missiles) / $8F:AC2B
+   kRCanAccessRB | ( kRCanAccessCroc & kRCanEnterPassages )
+79. Brinstar / Varia Suit / $8F:A6E2
+   kRCanAccessRB & kRCanDefeatKraid
+80. Maridia / Super Missile (Maridia Watering Hole Supers) / $8F:D13B
+   kRCanAccessMaridia & kRHiJumpBoots
+81. Maridia / Missile (Maridia Watering Hole Missiles) / $8F:D13B
+   kRCanAccessMaridia & kRHiJumpBoots
+82. Maridia / Energy Tank (Botwoon) / $8F:D7E4
+   kRCanAccessAquaduct & kRCanEnterPassages
+83. Brinstar / Power Bomb (Pink Brinstar Power Bombs) / $8F:9D19
+   kRCanAccessPB & kRCanUsePB & ( kRGrappleBeam | kRSpaceJump | kRSpeedBooster | kRCanWallJump )
+84. Brinstar / Super Missile (Spospo Supers) / $8F:9B5B
+   kRCanAccessPB & kRSupers
+85. Crateria / Missile (Crateria old MB missiles) / $8F:975C
+   kRMorphingBall & ( kRBomb | kRPowerBombs | kRScrewAttack )
+86. Brinstar / Energy Tank (Brinstar near Etecoons E-tank) / $8F:A011
+   kRCanMeetEtecoons
+87. Norfair / Energy Tank (Crocomire) / $8F:AA82
+   kRCanAccessCroc | ( kRCanAccessRB & kRCanEnterPassages )
+88. Norfair / Missile (Cathedral Missiles) / $8F:A788
+   kRCanAccessNorfair
+89. Norfair / Missile (Norfair Reserves 1st Missiles) / $8F:A788
+   kRCanAccessNorfair & kRSupers & ( kRGrappleBeam | kRCanWallJump | ( kRCanUseBomb & kRCanIBJ ) )
+90. Norfair / Missile (Norfair Reserves 2nd Missiles) / $8F:A788
+   kRCanAccessNorfair & kRSupers & ( kRGrappleBeam | kRCanWallJump | ( kRCanUseBomb & kRCanIBJ ) )
+91. Norfair / Reserve Tank (Norfair Reserves) / $8F:A788
+   kRCanAccessNorfair & kRSupers & ( kRGrappleBeam | kRCanWallJump | ( kRCanUseBomb & kRCanIBJ ) )
+92. Brinstar / Missile (Brinstar Map Station Missiles) / $8F:9C35
+   kRCanAccessGB & kRCanOpenMissile
+93. Brinstar / Super Missile (Brinstar near Etecoons) / $8F:9C35
+   kRCanMeetEtecoons
+94. Brinstar / Missile (Kraid) / $8F:A471
+   kRCanAccessRB & kRCanDefeatKraid
+95. Brinstar / Energy Tank (Kraid) / $8F:A471
+   kRCanAccessRB & kRCanDefeatKraid
+96. Norfair / Missile (Right Grapple Missiles) / $8F:AB64
+   ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump ) & ( kRCanAccessIce & kRCanEnterPassages ) | kRCanAccessCroc
+97. Norfair / Power Bomb (Grapple Power Bombs) / $8F:AB64
+   ( kRSpeedBooster | kRGrappleBeam | kRSpaceJump ) & ( kRCanAccessIce & kRCanEnterPassages ) | kRCanAccessCroc
+98. Norfair / Missile (Crocomire Escape) / $8F:AF72
+   kRCanAccessRB
+99. Maridia / Missile (Aqueduct Missiles) / $8F:D5A7
+   kRCanAccessAquaduct & kRSpeedBooster & kRGravitySuit
+100. Maridia / Super Missile (Aqueduct Supers) / $8F:D5A7
+   kRCanAccessAquaduct & kRSpeedBooster & kRGravitySuit
+101. Maridia / Reserve Tank (Maridia Reserves) / $8F:D5A7
+   kRCanAccessAquaduct
+102. Maridia / Missile (Maridia left sand pit room) / $8F:D5A7
+   kRCanAccessAquaduct
+103. Maridia / Missile (Maridia right sand pit room) / $8F:D5A7
+   kRCanAccessAquaduct
+104. Maridia / Power Bomb (Maridia right sand pit room) / $8F:D5A7
+   kRCanAccessAquaduct
+105. Brinstar / X-Ray Visor / $8F:A2CE
+   ( kRCanAccessPB & kRSupers & kRMorphingBall & kRGrappleBeam ) | ( kRGrappleBeam & kRCanAccessRB & kRCanUsePB )
+106. Brinstar / Missile (western Green Bullshaft) / $8F:9C5E
+   kRCanAccessRB & kRCanUsePB & kRSupers
+107. Crateria / Power Bomb (Crateria-Maridia Connector) / $8F:95A8
+   kRSupers & kRMorphingBall
+108. Wrecked Ship / Super Missile (Wrecked Ship-Maridia Connector) / $8F:CAAE
+   kRCanAccessWS & kRSupers & kRMorphingBall
+109. Brinstar / Missile (Southwest Brinstar Connector) / $8F:9E11
+   kRCanAccessRB & kRCanUsePB & kRSupers
+
+Helper definitions:
+kRCanUsePB = ( kRMorphingBall & kRPowerBombs )
+kRCanAccessRB = kRCanUsePB
+kRCanUseBomb = ( kRMorphingBall & kRBomb )
+kRCanSpeedball = ( kRMorphingBall & kRSpeedBooster )
+kRCanUse2PB = ( kRMorphingBall & kRPBLow )
+kRCanOpenMissile = ( kRMissiles | kRSupers )
+kRCanAccessWS = ( kRSupers & kRCanUsePB & kREnergyMed & ( kRSpaceJump | kRGrappleBeam | kRSpeedBooster ) )
+kRGauntlet = ( ( kRHiJumpBoots | kRCanWallJump ) & ( kRSpeedBooster | kRCanUseBomb | kRCanUse2PB | kRScrewAttack ) )
+kRCanOpenPassages = ( kRCanUseBomb | kRCanUsePB | kRScrewAttack )
+kRCanEnterPassages = ( kRCanUseBomb | kRCanUsePB )
+kRCanDestroyBomb = ( kRCanEnterPassages | kRScrewAttack | kRSpeedBooster )
+kRCanAccessGB = ( kRCanEnterPassages | ( kRCanUsePB & kRSupers ) | ( kRCanOpenMissile & kRCanUsePB ) )
+kRCanAccessPB = ( kRCanEnterPassages & kRSupers | ( kRCanAccessGB & kRCanOpenMissile ) | kRCanAccessRB )
+kRCanDefeatKraid = ( kRCanAccessRB & kRCanEnterPassages & kRCanOpenMissile & kREnergyLow )
+kRCanAccessNorfair = ( kRCanAccessRB & ( kRVariaSuit | ( kRGravitySuit & kRGravityHeat ) | ( kRCanHeatRun & kREnergyHeatLow ) ) )
+kRCanAccessLN = ( kRCanAccessNorfair & kREnergyHigh & ( kRVariaSuit | ( kRGravitySuit & kRGravityHeat ) | ( kRCanHeatRun & kREnergyHeatHigh ) ) & ( ( kRGravitySuit & kRSpaceJump & kRPowerBombs ) | kRCanBackflip ) )
+kRCanAccessIce = ( kRCanAccessNorfair & kRCanUsePB )
+kRCanAccessCroc = ( kRCanAccessNorfair & kRSupers )
+kRCanAccessMaridia = ( kRCanAccessRB & ( kRGravitySuit | kRCanWaterWJ ) & kRCanUsePB & kREnergyHigh )
+kRCanAccessAquaduct = ( kRCanAccessMaridia & ( kRSpeedBooster | kRSpaceJump | kRGrappleBeam ) )
+kRCanMeetEtecoons = ( kRCanAccessGB & kRCanUsePB )
+kRCanDefeatPhantoon = ( kRCanAccessWS & kRChargeBeam & ( kRGravitySuit | kRVariaSuit | kREnergyLow ) )
+kRCanAccessOuterM = ( kRCanAccessRB & kRPowerBombs & kRGravitySuit & ( kRSpaceJump | kRHiJumpBoots ) )
+kRCanAccessInnerM = ( kRCanAccessOuterM & ( kRSpaceJump | kRGrappleBeam | kRSpeedBooster ) )
+kRCanDefeatBotwoon = ( kRCanAccessInnerM & ( kRIceBeam | kRSpeedBooster ) )
+kRCanDefeatDraygon = ( kRCanDefeatBotwoon & kRSpaceJump & kREnergyLow )
+kRCanAccessRBV = ( kRSupers & ( ( kRCanDestroyBomb & kRMorphingBall ) | kRCanUsePB ) )
+kRCanAccessNorfairV = ( kRCanAccessRBV & ( kRSpaceJump | kRHiJumpBoots ) & ( kRVariaSuit | ( kRGravitySuit & kRGravityHeat ) | ( kRCanHeatRun & kREnergyHeatLow ) ) )
+kRCanAccessCrocV = ( kRCanAccessNorfairV & ( ( kRSpeedBooster & kRCanUsePB ) | kRWaveBeam ) )

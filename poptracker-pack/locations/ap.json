@@ -1,0 +1,1097 @@
+[
+  {
+    "name": "AP Checks",
+    "children": [
+      {
+        "name": "Power Bomb (Crateria surface)",
+        "sections": [
+          {
+            "name": "Room $8F:93AA",
+            "item_count": 1,
+            "access_rules": ["$pb_location|5"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria moat)",
+        "sections": [
+          {
+            "name": "Room $8F:95FF",
+            "item_count": 1,
+            "access_rules": ["$pb_location|6"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria 1st gauntlet missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:965B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|7"]
+          }
+        ]
+      },
+      {
+        "name": "Bomb",
+        "sections": [
+          {
+            "name": "Room $8F:9804",
+            "item_count": 1,
+            "access_rules": ["$pb_location|8"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crateria terminator)",
+        "sections": [
+          {
+            "name": "Room $8F:990D",
+            "item_count": 1,
+            "access_rules": ["$pb_location|9"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria Map Station Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9994",
+            "item_count": 1,
+            "access_rules": ["$pb_location|10"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria 2st gauntlet missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:99BD",
+            "item_count": 1,
+            "access_rules": ["$pb_location|11"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crateria gauntlet)",
+        "sections": [
+          {
+            "name": "Room $8F:99BD",
+            "item_count": 1,
+            "access_rules": ["$pb_location|12"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Crateria supers)",
+        "sections": [
+          {
+            "name": "Room $8F:89D0",
+            "item_count": 1,
+            "access_rules": ["$pb_location|13"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria Final Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9A90",
+            "item_count": 1,
+            "access_rules": ["$pb_location|14"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Underwater outside Wrecked Ship)",
+        "sections": [
+          {
+            "name": "Room $8F:93FE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|74"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (outside Wrecked Ship top)",
+        "sections": [
+          {
+            "name": "Room $8F:93FE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|75"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (outside WS under super block)",
+        "sections": [
+          {
+            "name": "Room $8F:93FE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|76"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria old MB missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:975C",
+            "item_count": 1,
+            "access_rules": ["$pb_location|85"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Crateria-Maridia Connector)",
+        "sections": [
+          {
+            "name": "Room $8F:95A8",
+            "item_count": 1,
+            "access_rules": ["$pb_location|107"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Brinstar Etecoons)",
+        "sections": [
+          {
+            "name": "Room $8F:9AD9",
+            "item_count": 1,
+            "access_rules": ["$pb_location|15"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar below Early Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:9BC8",
+            "item_count": 1,
+            "access_rules": ["$pb_location|16"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Brinstar Early Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:9BC8",
+            "item_count": 1,
+            "access_rules": ["$pb_location|17"]
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Brinstar Reserve)",
+        "sections": [
+          {
+            "name": "Room $8F:9C07",
+            "item_count": 1,
+            "access_rules": ["$pb_location|18"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Reserve Ron Popeil Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9C07",
+            "item_count": 1,
+            "access_rules": ["$pb_location|19"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Reserve Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9C07",
+            "item_count": 1,
+            "access_rules": ["$pb_location|20"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Big Pink Brinstar top)",
+        "sections": [
+          {
+            "name": "Room $8F:9D19",
+            "item_count": 1,
+            "access_rules": ["$pb_location|21"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Big Pink Brinstar Charge Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9D19",
+            "item_count": 1,
+            "access_rules": ["$pb_location|22"]
+          }
+        ]
+      },
+      {
+        "name": "Charge Beam",
+        "sections": [
+          {
+            "name": "Room $8F:A0D2",
+            "item_count": 1,
+            "access_rules": ["$pb_location|23"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Pipe Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9E52",
+            "item_count": 1,
+            "access_rules": ["$pb_location|24"]
+          }
+        ]
+      },
+      {
+        "name": "Morphing Ball",
+        "sections": [
+          {
+            "name": "Room $8F:9E9F",
+            "item_count": 1,
+            "access_rules": ["$pb_location|25"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Blue Brinstar)",
+        "sections": [
+          {
+            "name": "Room $8F:9E9F",
+            "item_count": 1,
+            "access_rules": ["$pb_location|26"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Pink Brinstar under Charge Beam)",
+        "sections": [
+          {
+            "name": "Room $8F:9D19",
+            "item_count": 1,
+            "access_rules": ["$pb_location|27"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Pink Brinstar Hoppers Room)",
+        "sections": [
+          {
+            "name": "Room $8F:A15B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|28"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Beta Power Bomb Room)",
+        "sections": [
+          {
+            "name": "Room $8F:A37C",
+            "item_count": 1,
+            "access_rules": ["$pb_location|29"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Alpha Power Bomb Room)",
+        "sections": [
+          {
+            "name": "Room $8F:A3AE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|30"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Alpha Power Bomb Room)",
+        "sections": [
+          {
+            "name": "Room $8F:A3AE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|31"]
+          }
+        ]
+      },
+      {
+        "name": "Spazer",
+        "sections": [
+          {
+            "name": "Room $8F:A447",
+            "item_count": 1,
+            "access_rules": ["$pb_location|32"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar First Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:A107",
+            "item_count": 1,
+            "access_rules": ["$pb_location|68"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar middle)",
+        "sections": [
+          {
+            "name": "Room $8F:9F64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|69"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Blue Brinstar)",
+        "sections": [
+          {
+            "name": "Room $8F:9F64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|70"]
+          }
+        ]
+      },
+      {
+        "name": "Dash Ball (Blue Brinstar upper Billy Mays)",
+        "sections": [
+          {
+            "name": "Room $8F:9F64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|71"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar lower Billy Mays)",
+        "sections": [
+          {
+            "name": "Room $8F:9F64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|72"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar Ceiling tile)",
+        "sections": [
+          {
+            "name": "Room $8F:9F64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|73"]
+          }
+        ]
+      },
+      {
+        "name": "Varia Suit",
+        "sections": [
+          {
+            "name": "Room $8F:A6E2",
+            "item_count": 1,
+            "access_rules": ["$pb_location|79"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Pink Brinstar Power Bombs)",
+        "sections": [
+          {
+            "name": "Room $8F:9D19",
+            "item_count": 1,
+            "access_rules": ["$pb_location|83"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Spospo Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:9B5B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|84"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Brinstar near Etecoons E-tank)",
+        "sections": [
+          {
+            "name": "Room $8F:A011",
+            "item_count": 1,
+            "access_rules": ["$pb_location|86"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Map Station Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:9C35",
+            "item_count": 1,
+            "access_rules": ["$pb_location|92"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Brinstar near Etecoons)",
+        "sections": [
+          {
+            "name": "Room $8F:9C35",
+            "item_count": 1,
+            "access_rules": ["$pb_location|93"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Kraid)",
+        "sections": [
+          {
+            "name": "Room $8F:A471",
+            "item_count": 1,
+            "access_rules": ["$pb_location|94"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Kraid)",
+        "sections": [
+          {
+            "name": "Room $8F:A471",
+            "item_count": 1,
+            "access_rules": ["$pb_location|95"]
+          }
+        ]
+      },
+      {
+        "name": "X-Ray Visor",
+        "sections": [
+          {
+            "name": "Room $8F:A2CE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|105"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (western Green Bullshaft)",
+        "sections": [
+          {
+            "name": "Room $8F:9C5E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|106"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Southwest Brinstar Connector)",
+        "sections": [
+          {
+            "name": "Room $8F:9E11",
+            "item_count": 1,
+            "access_rules": ["$pb_location|109"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Bubble Mountain)",
+        "sections": [
+          {
+            "name": "Room $8F:AD5E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|2"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wave/LN Escape Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:AD5E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|3"]
+          }
+        ]
+      },
+      {
+        "name": "Wave Beam",
+        "sections": [
+          {
+            "name": "Room $8F:AD5E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|4"]
+          }
+        ]
+      },
+      {
+        "name": "Ice Beam",
+        "sections": [
+          {
+            "name": "Room $8F:A890",
+            "item_count": 1,
+            "access_rules": ["$pb_location|36"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crocomire)",
+        "sections": [
+          {
+            "name": "Room $8F:A98D",
+            "item_count": 1,
+            "access_rules": ["$pb_location|37"]
+          }
+        ]
+      },
+      {
+        "name": "Hi-Jump Boots",
+        "sections": [
+          {
+            "name": "Room $8F:A9E5",
+            "item_count": 1,
+            "access_rules": ["$pb_location|38"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Hi-Jump Boots)",
+        "sections": [
+          {
+            "name": "Room $8F:AA41",
+            "item_count": 1,
+            "access_rules": ["$pb_location|39"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Hi-Jump Boots)",
+        "sections": [
+          {
+            "name": "Room $8F:AA41",
+            "item_count": 1,
+            "access_rules": ["$pb_location|40"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Speed Booster)",
+        "sections": [
+          {
+            "name": "Room $8F:ACF0",
+            "item_count": 1,
+            "access_rules": ["$pb_location|41"]
+          }
+        ]
+      },
+      {
+        "name": "Speed Booster",
+        "sections": [
+          {
+            "name": "Room $8F:AD1B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|42"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Gold Torizo)",
+        "sections": [
+          {
+            "name": "Room $8F:B283",
+            "item_count": 1,
+            "access_rules": ["$pb_location|43"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Gold Torizo)",
+        "sections": [
+          {
+            "name": "Room $8F:B283",
+            "item_count": 1,
+            "access_rules": ["$pb_location|44"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Mickey Mouse)",
+        "sections": [
+          {
+            "name": "Room $8F:B40A",
+            "item_count": 1,
+            "access_rules": ["$pb_location|45"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Spring Ball Maze)",
+        "sections": [
+          {
+            "name": "Room $8F:B510",
+            "item_count": 1,
+            "access_rules": ["$pb_location|46"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Spring Ball Maze)",
+        "sections": [
+          {
+            "name": "Room $8F:B55A",
+            "item_count": 1,
+            "access_rules": ["$pb_location|47"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Power Bombs of Shame)",
+        "sections": [
+          {
+            "name": "Room $8F:B5D5",
+            "item_count": 1,
+            "access_rules": ["$pb_location|48"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (FrankerZ)",
+        "sections": [
+          {
+            "name": "Room $8F:B656",
+            "item_count": 1,
+            "access_rules": ["$pb_location|49"]
+          }
+        ]
+      },
+      {
+        "name": "Screw Attack",
+        "sections": [
+          {
+            "name": "Room $8F:B6C1",
+            "item_count": 1,
+            "access_rules": ["$pb_location|50"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Lower Norfair Fire Flea E-tank)",
+        "sections": [
+          {
+            "name": "Room $8F:B6EE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|51"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Ridley)",
+        "sections": [
+          {
+            "name": "Room $8F:B698",
+            "item_count": 1,
+            "access_rules": ["$pb_location|67"]
+          }
+        ]
+      },
+      {
+        "name": "Grapple Beam",
+        "sections": [
+          {
+            "name": "Room $8F:AC2B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|77"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Left Grapple Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:AC2B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|78"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crocomire)",
+        "sections": [
+          {
+            "name": "Room $8F:AA82",
+            "item_count": 1,
+            "access_rules": ["$pb_location|87"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Cathedral Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:A788",
+            "item_count": 1,
+            "access_rules": ["$pb_location|88"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Norfair Reserves 1st Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:A788",
+            "item_count": 1,
+            "access_rules": ["$pb_location|89"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Norfair Reserves 2nd Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:A788",
+            "item_count": 1,
+            "access_rules": ["$pb_location|90"]
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Norfair Reserves)",
+        "sections": [
+          {
+            "name": "Room $8F:A788",
+            "item_count": 1,
+            "access_rules": ["$pb_location|91"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Right Grapple Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:AB64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|96"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Grapple Power Bombs)",
+        "sections": [
+          {
+            "name": "Room $8F:AB64",
+            "item_count": 1,
+            "access_rules": ["$pb_location|97"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crocomire Escape)",
+        "sections": [
+          {
+            "name": "Room $8F:AF72",
+            "item_count": 1,
+            "access_rules": ["$pb_location|98"]
+          }
+        ]
+      },
+      {
+        "name": "Gravity Suit",
+        "sections": [
+          {
+            "name": "Room $8F:C98E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|33"]
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Wrecked Ship Reserves)",
+        "sections": [
+          {
+            "name": "Room $8F:C98E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|34"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Reserves)",
+        "sections": [
+          {
+            "name": "Room $8F:C98E",
+            "item_count": 1,
+            "access_rules": ["$pb_location|35"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Attic)",
+        "sections": [
+          {
+            "name": "Room $8F:CA52",
+            "item_count": 1,
+            "access_rules": ["$pb_location|52"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Spike Room)",
+        "sections": [
+          {
+            "name": "Room $8F:CA08",
+            "item_count": 1,
+            "access_rules": ["$pb_location|53"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Wrecked Ship)",
+        "sections": [
+          {
+            "name": "Room $8F:CC27",
+            "item_count": 1,
+            "access_rules": ["$pb_location|54"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Map Station Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:CCCB",
+            "item_count": 1,
+            "access_rules": ["$pb_location|55"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship left)",
+        "sections": [
+          {
+            "name": "Room $8F:CDA8",
+            "item_count": 1,
+            "access_rules": ["$pb_location|56"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship right)",
+        "sections": [
+          {
+            "name": "Room $8F:CDF1",
+            "item_count": 1,
+            "access_rules": ["$pb_location|57"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship-Maridia Connector)",
+        "sections": [
+          {
+            "name": "Room $8F:CAAE",
+            "item_count": 1,
+            "access_rules": ["$pb_location|108"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Draygon)",
+        "sections": [
+          {
+            "name": "Room $8F:D72A",
+            "item_count": 1,
+            "access_rules": ["$pb_location|1"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Main Street)",
+        "sections": [
+          {
+            "name": "Room $8F:CFC9",
+            "item_count": 1,
+            "access_rules": ["$pb_location|58"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Maridia Crab Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:CFC9",
+            "item_count": 1,
+            "access_rules": ["$pb_location|59"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Maridia Turtles)",
+        "sections": [
+          {
+            "name": "Room $8F:D055",
+            "item_count": 1,
+            "access_rules": ["$pb_location|60"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Turtles)",
+        "sections": [
+          {
+            "name": "Room $8F:D055",
+            "item_count": 1,
+            "access_rules": ["$pb_location|61"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Map Station Missiles Corridor)",
+        "sections": [
+          {
+            "name": "Room $8F:D3B6",
+            "item_count": 1,
+            "access_rules": ["$pb_location|62"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Beach Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:D1DD",
+            "item_count": 1,
+            "access_rules": ["$pb_location|63"]
+          }
+        ]
+      },
+      {
+        "name": "Plasma Beam",
+        "sections": [
+          {
+            "name": "Room $8F:D2AA",
+            "item_count": 1,
+            "access_rules": ["$pb_location|64"]
+          }
+        ]
+      },
+      {
+        "name": "Spring Ball",
+        "sections": [
+          {
+            "name": "Room $8F:D6D0",
+            "item_count": 1,
+            "access_rules": ["$pb_location|65"]
+          }
+        ]
+      },
+      {
+        "name": "Space Jump",
+        "sections": [
+          {
+            "name": "Room $8F:D913",
+            "item_count": 1,
+            "access_rules": ["$pb_location|66"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Maridia Watering Hole Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:D13B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|80"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Watering Hole Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:D13B",
+            "item_count": 1,
+            "access_rules": ["$pb_location|81"]
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Botwoon)",
+        "sections": [
+          {
+            "name": "Room $8F:D7E4",
+            "item_count": 1,
+            "access_rules": ["$pb_location|82"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Aqueduct Missiles)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|99"]
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Aqueduct Supers)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|100"]
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Maridia Reserves)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|101"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia left sand pit room)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|102"]
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia right sand pit room)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|103"]
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Maridia right sand pit room)",
+        "sections": [
+          {
+            "name": "Room $8F:D5A7",
+            "item_count": 1,
+            "access_rules": ["$pb_location|104"]
+          }
+        ]
+      }
+    ]
+  }
+]

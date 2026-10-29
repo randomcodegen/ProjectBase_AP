@@ -1,4 +1,4 @@
-# Project Base Archipelago setup (0.2.1 alpha)
+# Project Base Archipelago setup (1.0.0)
 
 Supply clean **Super Metroid (Japan, USA)** and **A Link to the Past Japan 1.0** ROMs (`.sfc` or `.smc`).  
 AP automatically reconstructs Project Base 0.8.4.2 using its bundled graphics-stripped PB patch, then applies your seed.
@@ -20,8 +20,8 @@ Project Base:
   progression_balancing: 50
 ```
 
-This is an alpha:  
-The source randomizer has no final-goal predicate, so `GOAL_RULE` and
+Known logic limitation:  
+The source randomizer has no final-goal logic, so `GOAL_RULE` and  
 `GOAL_COUNTS` in `rules.py` are conservative added requirements.  
 They require Varia, Ice, Charge, the boss routes, at least three Energy Tanks, ten Missile
 packs and five Super Missile packs.
@@ -97,5 +97,5 @@ Logical beatability does not guarantee physical beatability with these options.
 
 The source's Controls button, enemy-palette shuffle, and beam/morph graphic
 shuffle are unfinished placeholders. Its missile-threshold controls are unused.
-“Vanilla Map” selects logic for another base ROM; it does not convert the
+“Vanilla Map” selects logic for another base ROM, it does not convert the
 supported 0.8.4.2 map. AP supplies seed selection, fill, output and spoilers.

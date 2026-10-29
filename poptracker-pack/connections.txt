@@ -1,0 +1,19 @@
+Used physical cross-area doors (room IDs):
+Crateria 93FE <-> Wrecked Ship C98E
+Crateria 93FE <-> Wrecked Ship CA08
+Crateria 93FE <-> Wrecked Ship CA52
+Crateria 93FE <- Wrecked Ship CE40
+Crateria 94CC <-> Wrecked Ship CAAE
+Crateria 94CC <-> Maridia D30B
+Crateria 94FD <-> Wrecked Ship CA52
+Crateria 94FD <-> Wrecked Ship CBD5
+Crateria 96BA <-> Tourian DEDE
+Crateria 975C <-> Brinstar 9B5B
+Crateria 97B5 <-> Brinstar 9E9F
+Crateria 9938 <-> Brinstar 9AD9
+Brinstar A1AD <-> Norfair AD5E
+Brinstar A1AD <- Norfair B07A
+Brinstar A322 <-> Maridia D104
+Brinstar A3DD <-> Maridia CF54
+Crateria A66A <-> Tourian DAAE
+Maridia D3B6 <-> Brinstar D898

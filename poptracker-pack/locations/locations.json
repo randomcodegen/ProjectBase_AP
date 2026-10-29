@@ -1,0 +1,2207 @@
+[
+  {
+    "name": "Crateria",
+    "children": [
+      {
+        "name": "Power Bomb (Crateria surface)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1840,
+            "y": 168
+          },
+          {
+            "map": "full-map",
+            "x": 2066,
+            "y": 234
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Crateria surface)/Room $8F:93AA"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria moat)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1984,
+            "y": 364
+          },
+          {
+            "map": "full-map",
+            "x": 2174,
+            "y": 380
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria moat)/Room $8F:95FF"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria 1st gauntlet missiles)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 800,
+            "y": 244
+          },
+          {
+            "map": "full-map",
+            "x": 1286,
+            "y": 290
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria 1st gauntlet missiles)/Room $8F:965B"
+          }
+        ]
+      },
+      {
+        "name": "Bomb",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1336,
+            "y": 496
+          },
+          {
+            "map": "full-map",
+            "x": 1688,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Bomb/Room $8F:9804"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crateria terminator)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 484,
+            "y": 496
+          },
+          {
+            "map": "full-map",
+            "x": 1048,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Crateria terminator)/Room $8F:990D"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria Map Station Missiles)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1280,
+            "y": 556
+          },
+          {
+            "map": "full-map",
+            "x": 1646,
+            "y": 524
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria Map Station Missiles)/Room $8F:9994"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria 2st gauntlet missiles)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 440,
+            "y": 300
+          },
+          {
+            "map": "full-map",
+            "x": 1016,
+            "y": 332
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria 2st gauntlet missiles)/Room $8F:99BD"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crateria gauntlet)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 412,
+            "y": 228
+          },
+          {
+            "map": "full-map",
+            "x": 994,
+            "y": 278
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Crateria gauntlet)/Room $8F:99BD"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Crateria supers)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1248,
+            "y": 676
+          },
+          {
+            "map": "full-map",
+            "x": 1622,
+            "y": 614
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Crateria supers)/Room $8F:89D0"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria Final Missiles)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 728,
+            "y": 548
+          },
+          {
+            "map": "full-map",
+            "x": 1232,
+            "y": 518
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria Final Missiles)/Room $8F:9A90"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Underwater outside Wrecked Ship)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 2064,
+            "y": 436
+          },
+          {
+            "map": "full-map",
+            "x": 2234,
+            "y": 434
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Underwater outside Wrecked Ship)/Room $8F:93FE"
+          }
+        ]
+      },
+      {
+        "name": "Missile (outside Wrecked Ship top)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 2148,
+            "y": 84
+          },
+          {
+            "map": "full-map",
+            "x": 2296,
+            "y": 170
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (outside Wrecked Ship top)/Room $8F:93FE"
+          }
+        ]
+      },
+      {
+        "name": "Missile (outside WS under super block)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 2060,
+            "y": 260
+          },
+          {
+            "map": "full-map",
+            "x": 2230,
+            "y": 302
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (outside WS under super block)/Room $8F:93FE"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crateria old MB missiles)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1144,
+            "y": 1252
+          },
+          {
+            "map": "full-map",
+            "x": 1544,
+            "y": 1046
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crateria old MB missiles)/Room $8F:975C"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Crateria-Maridia Connector)",
+        "map_locations": [
+          {
+            "map": "crateria",
+            "x": 1696,
+            "y": 1132
+          },
+          {
+            "map": "full-map",
+            "x": 1958,
+            "y": 956
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Crateria-Maridia Connector)/Room $8F:95A8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Brinstar",
+    "children": [
+      {
+        "name": "Power Bomb (Brinstar Etecoons)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 816,
+            "y": 556
+          },
+          {
+            "map": "full-map",
+            "x": 914,
+            "y": 1343
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Brinstar Etecoons)/Room $8F:9AD9"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar below Early Supers)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 720,
+            "y": 372
+          },
+          {
+            "map": "full-map",
+            "x": 842,
+            "y": 1225
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Brinstar below Early Supers)/Room $8F:9BC8"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Brinstar Early Supers)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 696,
+            "y": 284
+          },
+          {
+            "map": "full-map",
+            "x": 824,
+            "y": 1168
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Brinstar Early Supers)/Room $8F:9BC8"
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Brinstar Reserve)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 884,
+            "y": 356
+          },
+          {
+            "map": "full-map",
+            "x": 964,
+            "y": 1215
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Reserve Tank (Brinstar Reserve)/Room $8F:9C07"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Reserve Ron Popeil Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 952,
+            "y": 372
+          },
+          {
+            "map": "full-map",
+            "x": 1016,
+            "y": 1225
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Brinstar Reserve Ron Popeil Missiles)/Room $8F:9C07"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Reserve Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 928,
+            "y": 352
+          },
+          {
+            "map": "full-map",
+            "x": 998,
+            "y": 1212
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Brinstar Reserve Missiles)/Room $8F:9C07"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Big Pink Brinstar top)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1144,
+            "y": 528
+          },
+          {
+            "map": "full-map",
+            "x": 1160,
+            "y": 1325
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Big Pink Brinstar top)/Room $8F:9D19"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Big Pink Brinstar Charge Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1152,
+            "y": 720
+          },
+          {
+            "map": "full-map",
+            "x": 1166,
+            "y": 1471
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Big Pink Brinstar Charge Missiles)/Room $8F:9D19"
+          }
+        ]
+      },
+      {
+        "name": "Charge Beam",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 536,
+            "y": 928
+          },
+          {
+            "map": "full-map",
+            "x": 704,
+            "y": 1639
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Charge Beam/Room $8F:A0D2"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Pipe Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1460,
+            "y": 796
+          },
+          {
+            "map": "full-map",
+            "x": 1396,
+            "y": 1533
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Brinstar Pipe Missiles)/Room $8F:9E52"
+          }
+        ]
+      },
+      {
+        "name": "Morphing Ball",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1628,
+            "y": 748
+          },
+          {
+            "map": "full-map",
+            "x": 1522,
+            "y": 1494
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Morphing Ball/Room $8F:9E9F"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Blue Brinstar)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1512,
+            "y": 748
+          },
+          {
+            "map": "full-map",
+            "x": 1436,
+            "y": 1494
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Blue Brinstar)/Room $8F:9E9F"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Pink Brinstar under Charge Beam)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1116,
+            "y": 792
+          },
+          {
+            "map": "full-map",
+            "x": 1138,
+            "y": 1530
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Pink Brinstar under Charge Beam)/Room $8F:9D19"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Pink Brinstar Hoppers Room)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1384,
+            "y": 628
+          },
+          {
+            "map": "full-map",
+            "x": 1340,
+            "y": 1397
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Pink Brinstar Hoppers Room)/Room $8F:A15B"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Beta Power Bomb Room)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2264,
+            "y": 600
+          },
+          {
+            "map": "full-map",
+            "x": 2000,
+            "y": 1375
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Beta Power Bomb Room)/Room $8F:A37C"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Alpha Power Bomb Room)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2328,
+            "y": 804
+          },
+          {
+            "map": "full-map",
+            "x": 2048,
+            "y": 1539
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Alpha Power Bomb Room)/Room $8F:A3AE"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Alpha Power Bomb Room)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2192,
+            "y": 824
+          },
+          {
+            "map": "full-map",
+            "x": 1946,
+            "y": 1555
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Alpha Power Bomb Room)/Room $8F:A3AE"
+          }
+        ]
+      },
+      {
+        "name": "Spazer",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2484,
+            "y": 1188
+          },
+          {
+            "map": "full-map",
+            "x": 2164,
+            "y": 1849
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Spazer/Room $8F:A447"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar First Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1816,
+            "y": 796
+          },
+          {
+            "map": "full-map",
+            "x": 1664,
+            "y": 1533
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Blue Brinstar First Missiles)/Room $8F:A107"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar middle)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2104,
+            "y": 752
+          },
+          {
+            "map": "full-map",
+            "x": 1880,
+            "y": 1497
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Blue Brinstar middle)/Room $8F:9F64"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Blue Brinstar)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2100,
+            "y": 812
+          },
+          {
+            "map": "full-map",
+            "x": 1876,
+            "y": 1546
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Blue Brinstar)/Room $8F:9F64"
+          }
+        ]
+      },
+      {
+        "name": "Dash Ball (Blue Brinstar upper Billy Mays)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1880,
+            "y": 612
+          },
+          {
+            "map": "full-map",
+            "x": 1712,
+            "y": 1384
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Dash Ball (Blue Brinstar upper Billy Mays)/Room $8F:9F64"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar lower Billy Mays)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1884,
+            "y": 680
+          },
+          {
+            "map": "full-map",
+            "x": 1714,
+            "y": 1439
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Blue Brinstar lower Billy Mays)/Room $8F:9F64"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Blue Brinstar Ceiling tile)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2044,
+            "y": 720
+          },
+          {
+            "map": "full-map",
+            "x": 1834,
+            "y": 1471
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Blue Brinstar Ceiling tile)/Room $8F:9F64"
+          }
+        ]
+      },
+      {
+        "name": "Varia Suit",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 3684,
+            "y": 1324
+          },
+          {
+            "map": "full-map",
+            "x": 3064,
+            "y": 1959
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Varia Suit/Room $8F:A6E2"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Pink Brinstar Power Bombs)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1000,
+            "y": 552
+          },
+          {
+            "map": "full-map",
+            "x": 1052,
+            "y": 1341
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Pink Brinstar Power Bombs)/Room $8F:9D19"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Spospo Supers)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1648,
+            "y": 676
+          },
+          {
+            "map": "full-map",
+            "x": 1538,
+            "y": 1436
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Spospo Supers)/Room $8F:9B5B"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Brinstar near Etecoons E-tank)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 476,
+            "y": 816
+          },
+          {
+            "map": "full-map",
+            "x": 658,
+            "y": 1549
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Brinstar near Etecoons E-tank)/Room $8F:A011"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Brinstar Map Station Missiles)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 348,
+            "y": 360
+          },
+          {
+            "map": "full-map",
+            "x": 562,
+            "y": 1217
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Brinstar Map Station Missiles)/Room $8F:9C35"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Brinstar near Etecoons)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 532,
+            "y": 548
+          },
+          {
+            "map": "full-map",
+            "x": 700,
+            "y": 1338
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Brinstar near Etecoons)/Room $8F:9C35"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Kraid)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2772,
+            "y": 1316
+          },
+          {
+            "map": "full-map",
+            "x": 2380,
+            "y": 1953
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Kraid)/Room $8F:A471"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Kraid)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 2800,
+            "y": 1392
+          },
+          {
+            "map": "full-map",
+            "x": 2402,
+            "y": 2014
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Kraid)/Room $8F:A471"
+          }
+        ]
+      },
+      {
+        "name": "X-Ray Visor",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1500,
+            "y": 1056
+          },
+          {
+            "map": "full-map",
+            "x": 1426,
+            "y": 1743
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/X-Ray Visor/Room $8F:A2CE"
+          }
+        ]
+      },
+      {
+        "name": "Missile (western Green Bullshaft)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 284,
+            "y": 752
+          },
+          {
+            "map": "full-map",
+            "x": 514,
+            "y": 1497
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (western Green Bullshaft)/Room $8F:9C5E"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Southwest Brinstar Connector)",
+        "map_locations": [
+          {
+            "map": "brinstar",
+            "x": 1436,
+            "y": 1248
+          },
+          {
+            "map": "full-map",
+            "x": 1378,
+            "y": 1898
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Southwest Brinstar Connector)/Room $8F:9E11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Norfair",
+    "children": [
+      {
+        "name": "Missile (Bubble Mountain)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1432,
+            "y": 440
+          },
+          {
+            "map": "full-map",
+            "x": 2912,
+            "y": 2262
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Bubble Mountain)/Room $8F:AD5E"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wave/LN Escape Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1720,
+            "y": 224
+          },
+          {
+            "map": "full-map",
+            "x": 3128,
+            "y": 2100
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Wave/LN Escape Missiles)/Room $8F:AD5E"
+          }
+        ]
+      },
+      {
+        "name": "Wave Beam",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1844,
+            "y": 344
+          },
+          {
+            "map": "full-map",
+            "x": 3220,
+            "y": 2190
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Wave Beam/Room $8F:AD5E"
+          }
+        ]
+      },
+      {
+        "name": "Ice Beam",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 312,
+            "y": 228
+          },
+          {
+            "map": "full-map",
+            "x": 2072,
+            "y": 2102
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Ice Beam/Room $8F:A890"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crocomire)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1208,
+            "y": 736
+          },
+          {
+            "map": "full-map",
+            "x": 2744,
+            "y": 2484
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crocomire)/Room $8F:A98D"
+          }
+        ]
+      },
+      {
+        "name": "Hi-Jump Boots",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 404,
+            "y": 488
+          },
+          {
+            "map": "full-map",
+            "x": 2140,
+            "y": 2298
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Hi-Jump Boots/Room $8F:A9E5"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Hi-Jump Boots)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 492,
+            "y": 416
+          },
+          {
+            "map": "full-map",
+            "x": 2206,
+            "y": 2244
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Hi-Jump Boots)/Room $8F:AA41"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Hi-Jump Boots)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 548,
+            "y": 424
+          },
+          {
+            "map": "full-map",
+            "x": 2248,
+            "y": 2250
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Hi-Jump Boots)/Room $8F:AA41"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Speed Booster)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2296,
+            "y": 212
+          },
+          {
+            "map": "full-map",
+            "x": 3560,
+            "y": 2090
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Speed Booster)/Room $8F:ACF0"
+          }
+        ]
+      },
+      {
+        "name": "Speed Booster",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2360,
+            "y": 224
+          },
+          {
+            "map": "full-map",
+            "x": 3608,
+            "y": 2100
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Speed Booster/Room $8F:AD1B"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Gold Torizo)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1148,
+            "y": 1064
+          },
+          {
+            "map": "full-map",
+            "x": 2698,
+            "y": 2730
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Gold Torizo)/Room $8F:B283"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Gold Torizo)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1168,
+            "y": 1064
+          },
+          {
+            "map": "full-map",
+            "x": 2714,
+            "y": 2730
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Gold Torizo)/Room $8F:B283"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Mickey Mouse)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1764,
+            "y": 756
+          },
+          {
+            "map": "full-map",
+            "x": 3160,
+            "y": 2498
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Mickey Mouse)/Room $8F:B40A"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Spring Ball Maze)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2228,
+            "y": 420
+          },
+          {
+            "map": "full-map",
+            "x": 3508,
+            "y": 2246
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Spring Ball Maze)/Room $8F:B510"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Spring Ball Maze)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2360,
+            "y": 488
+          },
+          {
+            "map": "full-map",
+            "x": 3608,
+            "y": 2298
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Spring Ball Maze)/Room $8F:B55A"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Power Bombs of Shame)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2020,
+            "y": 1000
+          },
+          {
+            "map": "full-map",
+            "x": 3352,
+            "y": 2682
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Power Bombs of Shame)/Room $8F:B5D5"
+          }
+        ]
+      },
+      {
+        "name": "Missile (FrankerZ)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1832,
+            "y": 428
+          },
+          {
+            "map": "full-map",
+            "x": 3212,
+            "y": 2252
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (FrankerZ)/Room $8F:B656"
+          }
+        ]
+      },
+      {
+        "name": "Screw Attack",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1268,
+            "y": 1120
+          },
+          {
+            "map": "full-map",
+            "x": 2788,
+            "y": 2772
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Screw Attack/Room $8F:B6C1"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Lower Norfair Fire Flea E-tank)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 2352,
+            "y": 780
+          },
+          {
+            "map": "full-map",
+            "x": 3602,
+            "y": 2516
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Lower Norfair Fire Flea E-tank)/Room $8F:B6EE"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Ridley)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1372,
+            "y": 1200
+          },
+          {
+            "map": "full-map",
+            "x": 2866,
+            "y": 2832
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Ridley)/Room $8F:B698"
+          }
+        ]
+      },
+      {
+        "name": "Grapple Beam",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 152,
+            "y": 1116
+          },
+          {
+            "map": "full-map",
+            "x": 1952,
+            "y": 2768
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Grapple Beam/Room $8F:AC2B"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Left Grapple Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 116,
+            "y": 1124
+          },
+          {
+            "map": "full-map",
+            "x": 1924,
+            "y": 2774
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Left Grapple Missiles)/Room $8F:AC2B"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Crocomire)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 548,
+            "y": 748
+          },
+          {
+            "map": "full-map",
+            "x": 2248,
+            "y": 2492
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Crocomire)/Room $8F:AA82"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Cathedral Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1104,
+            "y": 376
+          },
+          {
+            "map": "full-map",
+            "x": 2666,
+            "y": 2214
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Cathedral Missiles)/Room $8F:A788"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Norfair Reserves 1st Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 1304,
+            "y": 240
+          },
+          {
+            "map": "full-map",
+            "x": 2816,
+            "y": 2112
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Norfair Reserves 1st Missiles)/Room $8F:A788"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Norfair Reserves 2nd Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 972,
+            "y": 236
+          },
+          {
+            "map": "full-map",
+            "x": 2566,
+            "y": 2108
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Norfair Reserves 2nd Missiles)/Room $8F:A788"
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Norfair Reserves)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 660,
+            "y": 228
+          },
+          {
+            "map": "full-map",
+            "x": 2332,
+            "y": 2102
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Reserve Tank (Norfair Reserves)/Room $8F:A788"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Right Grapple Missiles)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 592,
+            "y": 1064
+          },
+          {
+            "map": "full-map",
+            "x": 2282,
+            "y": 2730
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Right Grapple Missiles)/Room $8F:AB64"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Grapple Power Bombs)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 600,
+            "y": 872
+          },
+          {
+            "map": "full-map",
+            "x": 2288,
+            "y": 2586
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Grapple Power Bombs)/Room $8F:AB64"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Crocomire Escape)",
+        "map_locations": [
+          {
+            "map": "norfair",
+            "x": 684,
+            "y": 492
+          },
+          {
+            "map": "full-map",
+            "x": 2350,
+            "y": 2300
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Crocomire Escape)/Room $8F:AF72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wrecked Ship",
+    "children": [
+      {
+        "name": "Gravity Suit",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 100,
+            "y": 300
+          },
+          {
+            "map": "full-map",
+            "x": 2536,
+            "y": 332
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Gravity Suit/Room $8F:C98E"
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Wrecked Ship Reserves)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 404,
+            "y": 180
+          },
+          {
+            "map": "full-map",
+            "x": 2749,
+            "y": 242
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Reserve Tank (Wrecked Ship Reserves)/Room $8F:C98E"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Reserves)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 312,
+            "y": 288
+          },
+          {
+            "map": "full-map",
+            "x": 2687,
+            "y": 324
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Wrecked Ship Reserves)/Room $8F:C98E"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Attic)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 804,
+            "y": 112
+          },
+          {
+            "map": "full-map",
+            "x": 3019,
+            "y": 192
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Wrecked Ship Attic)/Room $8F:CA52"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Spike Room)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 316,
+            "y": 476
+          },
+          {
+            "map": "full-map",
+            "x": 2690,
+            "y": 464
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Wrecked Ship Spike Room)/Room $8F:CA08"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Wrecked Ship)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 596,
+            "y": 288
+          },
+          {
+            "map": "full-map",
+            "x": 2879,
+            "y": 324
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Wrecked Ship)/Room $8F:CC27"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Wrecked Ship Map Station Missiles)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 232,
+            "y": 532
+          },
+          {
+            "map": "full-map",
+            "x": 2633,
+            "y": 506
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Wrecked Ship Map Station Missiles)/Room $8F:CCCB"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship left)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 400,
+            "y": 544
+          },
+          {
+            "map": "full-map",
+            "x": 2746,
+            "y": 516
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Wrecked Ship left)/Room $8F:CDA8"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship right)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 808,
+            "y": 556
+          },
+          {
+            "map": "full-map",
+            "x": 3022,
+            "y": 524
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Wrecked Ship right)/Room $8F:CDF1"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Wrecked Ship-Maridia Connector)",
+        "map_locations": [
+          {
+            "map": "wrecked-ship",
+            "x": 924,
+            "y": 680
+          },
+          {
+            "map": "full-map",
+            "x": 3132,
+            "y": 618
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Wrecked Ship-Maridia Connector)/Room $8F:CAAE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Maridia",
+    "children": [
+      {
+        "name": "Missile (Draygon)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 2224,
+            "y": 568
+          },
+          {
+            "map": "full-map",
+            "x": 3490,
+            "y": 1354
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Draygon)/Room $8F:D72A"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Main Street)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 192,
+            "y": 860
+          },
+          {
+            "map": "full-map",
+            "x": 2174,
+            "y": 1587
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia Main Street)/Room $8F:CFC9"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Maridia Crab Supers)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 224,
+            "y": 808
+          },
+          {
+            "map": "full-map",
+            "x": 2198,
+            "y": 1546
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Maridia Crab Supers)/Room $8F:CFC9"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Maridia Turtles)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 708,
+            "y": 880
+          },
+          {
+            "map": "full-map",
+            "x": 2543,
+            "y": 1603
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Maridia Turtles)/Room $8F:D055"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Turtles)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 644,
+            "y": 1064
+          },
+          {
+            "map": "full-map",
+            "x": 2497,
+            "y": 1750
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia Turtles)/Room $8F:D055"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Map Station Missiles Corridor)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1008,
+            "y": 1196
+          },
+          {
+            "map": "full-map",
+            "x": 2756,
+            "y": 1856
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia Map Station Missiles Corridor)/Room $8F:D3B6"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Beach Missiles)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 824,
+            "y": 508
+          },
+          {
+            "map": "full-map",
+            "x": 2625,
+            "y": 1312
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia Beach Missiles)/Room $8F:D1DD"
+          }
+        ]
+      },
+      {
+        "name": "Plasma Beam",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1268,
+            "y": 220
+          },
+          {
+            "map": "full-map",
+            "x": 2941,
+            "y": 1123
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Plasma Beam/Room $8F:D2AA"
+          }
+        ]
+      },
+      {
+        "name": "Spring Ball",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1644,
+            "y": 1116
+          },
+          {
+            "map": "full-map",
+            "x": 3179,
+            "y": 1792
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Spring Ball/Room $8F:D6D0"
+          }
+        ]
+      },
+      {
+        "name": "Space Jump",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1944,
+            "y": 736
+          },
+          {
+            "map": "full-map",
+            "x": 3340,
+            "y": 1488
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Space Jump/Room $8F:D913"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Maridia Watering Hole Supers)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 336,
+            "y": 416
+          },
+          {
+            "map": "full-map",
+            "x": 2279,
+            "y": 1251
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Maridia Watering Hole Supers)/Room $8F:D13B"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia Watering Hole Missiles)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 308,
+            "y": 484
+          },
+          {
+            "map": "full-map",
+            "x": 2259,
+            "y": 1296
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia Watering Hole Missiles)/Room $8F:D13B"
+          }
+        ]
+      },
+      {
+        "name": "Energy Tank (Botwoon)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1360,
+            "y": 604
+          },
+          {
+            "map": "full-map",
+            "x": 3006,
+            "y": 1383
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Energy Tank (Botwoon)/Room $8F:D7E4"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Aqueduct Missiles)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1080,
+            "y": 684
+          },
+          {
+            "map": "full-map",
+            "x": 2807,
+            "y": 1447
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Aqueduct Missiles)/Room $8F:D5A7"
+          }
+        ]
+      },
+      {
+        "name": "Super Missile (Aqueduct Supers)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1144,
+            "y": 680
+          },
+          {
+            "map": "full-map",
+            "x": 2853,
+            "y": 1443
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Super Missile (Aqueduct Supers)/Room $8F:D5A7"
+          }
+        ]
+      },
+      {
+        "name": "Reserve Tank (Maridia Reserves)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 800,
+            "y": 984
+          },
+          {
+            "map": "full-map",
+            "x": 2608,
+            "y": 1686
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Reserve Tank (Maridia Reserves)/Room $8F:D5A7"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia left sand pit room)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 788,
+            "y": 1000
+          },
+          {
+            "map": "full-map",
+            "x": 2600,
+            "y": 1699
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia left sand pit room)/Room $8F:D5A7"
+          }
+        ]
+      },
+      {
+        "name": "Missile (Maridia right sand pit room)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 980,
+            "y": 996
+          },
+          {
+            "map": "full-map",
+            "x": 2736,
+            "y": 1696
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Missile (Maridia right sand pit room)/Room $8F:D5A7"
+          }
+        ]
+      },
+      {
+        "name": "Power Bomb (Maridia right sand pit room)",
+        "map_locations": [
+          {
+            "map": "maridia",
+            "x": 1068,
+            "y": 1032
+          },
+          {
+            "map": "full-map",
+            "x": 2799,
+            "y": 1725
+          }
+        ],
+        "sections": [
+          {
+            "ref": "AP Checks/Power Bomb (Maridia right sand pit room)/Room $8F:D5A7"
+          }
+        ]
+      }
+    ]
+  }
+]

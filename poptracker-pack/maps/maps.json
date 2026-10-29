@@ -1,0 +1,44 @@
+[
+  {
+    "name": "full-map",
+    "img": "images/maps/full-map.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "crateria",
+    "img": "images/maps/crateria.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "brinstar",
+    "img": "images/maps/brinstar.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "norfair",
+    "img": "images/maps/norfair.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "wrecked-ship",
+    "img": "images/maps/wrecked-ship.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "maridia",
+    "img": "images/maps/maridia.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  },
+  {
+    "name": "tourian",
+    "img": "images/maps/tourian.png",
+    "location_size": 24,
+    "location_border_thickness": 2
+  }
+]

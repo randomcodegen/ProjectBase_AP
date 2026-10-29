@@ -1,0 +1,332 @@
+[
+  {
+    "name": "Morph Ball",
+    "type": "toggle",
+    "codes": "morph_ball",
+    "img": "images/inventory/morph_ball.png"
+  },
+  {
+    "name": "Bombs",
+    "type": "toggle",
+    "codes": "bombs",
+    "img": "images/inventory/bombs.png"
+  },
+  {
+    "name": "Charge Beam",
+    "type": "toggle",
+    "codes": "charge_beam",
+    "img": "images/inventory/charge_beam.png"
+  },
+  {
+    "name": "Spazer",
+    "type": "toggle",
+    "codes": "spazer",
+    "img": "images/inventory/spazer.png"
+  },
+  {
+    "name": "Varia Suit",
+    "type": "toggle",
+    "codes": "varia_suit",
+    "img": "images/inventory/varia_suit.png"
+  },
+  {
+    "name": "Hijump Boots",
+    "type": "toggle",
+    "codes": "hijump_boots",
+    "img": "images/inventory/hijump_boots.png"
+  },
+  {
+    "name": "Speed Booster",
+    "type": "toggle",
+    "codes": "speed_booster",
+    "img": "images/inventory/speed_booster.png"
+  },
+  {
+    "name": "Wave Beam",
+    "type": "toggle",
+    "codes": "wave_beam",
+    "img": "images/inventory/wave_beam.png"
+  },
+  {
+    "name": "Grapple Beam",
+    "type": "toggle",
+    "codes": "grapple_beam",
+    "img": "images/inventory/grapple_beam.png"
+  },
+  {
+    "name": "Gravity Suit",
+    "type": "toggle",
+    "codes": "gravity_suit",
+    "img": "images/inventory/gravity_suit.png"
+  },
+  {
+    "name": "Space Jump",
+    "type": "toggle",
+    "codes": "space_jump",
+    "img": "images/inventory/space_jump.png"
+  },
+  {
+    "name": "Spring Ball",
+    "type": "toggle",
+    "codes": "spring_ball",
+    "img": "images/inventory/spring_ball.png"
+  },
+  {
+    "name": "Plasma Beam",
+    "type": "toggle",
+    "codes": "plasma_beam",
+    "img": "images/inventory/plasma_beam.png"
+  },
+  {
+    "name": "Ice Beam",
+    "type": "toggle",
+    "codes": "ice_beam",
+    "img": "images/inventory/ice_beam.png"
+  },
+  {
+    "name": "Screw Attack",
+    "type": "toggle",
+    "codes": "screw_attack",
+    "img": "images/inventory/screw_attack.png"
+  },
+  {
+    "name": "Xray Scope",
+    "type": "toggle",
+    "codes": "xray_scope",
+    "img": "images/inventory/xray_scope.png"
+  },
+  {
+    "name": "Dash Ball",
+    "type": "toggle",
+    "codes": "dash_ball",
+    "img": "images/inventory/dash_ball.png"
+  },
+  {
+    "name": "Reserve Tank",
+    "type": "consumable",
+    "codes": "reserve_tank",
+    "img": "images/inventory/reserve_tank.png",
+    "min_quantity": 0,
+    "max_quantity": 65535,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Energy Tank",
+    "type": "consumable",
+    "codes": "energy_tank",
+    "img": "images/inventory/energy_tank.png",
+    "min_quantity": 0,
+    "max_quantity": 65535,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Missile",
+    "type": "consumable",
+    "codes": "missile",
+    "img": "images/inventory/missile.png",
+    "min_quantity": 0,
+    "max_quantity": 65535,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Super Missile",
+    "type": "consumable",
+    "codes": "super_missile",
+    "img": "images/inventory/super_missile.png",
+    "min_quantity": 0,
+    "max_quantity": 65535,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Power Bomb",
+    "type": "consumable",
+    "codes": "power_bomb",
+    "img": "images/inventory/power_bomb.png",
+    "min_quantity": 0,
+    "max_quantity": 65535,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_font_size": 12
+  },
+  {
+    "name": "Samus inventory frame",
+    "type": "static",
+    "codes": "inventory_frame",
+    "img": "images/inventory/frame.png"
+  },
+  {
+    "name": "Received suit",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Power Suit",
+        "codes": "inventory_samus",
+        "inherit_codes": false,
+        "img": "images/inventory/samus-0.png"
+      },
+      {
+        "name": "Varia Suit",
+        "codes": "inventory_samus",
+        "inherit_codes": false,
+        "img": "images/inventory/samus-1.png"
+      },
+      {
+        "name": "Gravity Suit",
+        "codes": "inventory_samus",
+        "inherit_codes": false,
+        "img": "images/inventory/samus-2.png"
+      }
+    ]
+  },
+  {
+    "name": "Auto area tabs (SNI)",
+    "type": "toggle",
+    "codes": "auto_area",
+    "img": "images/auto_area.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Follow Samus on Full Map (SNI; overrides area tabs)",
+    "type": "toggle",
+    "codes": "follow_samus",
+    "img": "images/follow_samus.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Show Samus's current screen (SNI position indicator)",
+    "type": "toggle",
+    "codes": "show_samus",
+    "img": "images/show_samus.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Follow zoom",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Follow zoom: keep manual zoom",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_0.png"
+      },
+      {
+        "name": "Follow zoom: 0.5x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_1.png"
+      },
+      {
+        "name": "Follow zoom: 1x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_2.png"
+      },
+      {
+        "name": "Follow zoom: 1.5x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_3.png"
+      },
+      {
+        "name": "Follow zoom: 2x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_4.png"
+      },
+      {
+        "name": "Follow zoom: 3x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_5.png"
+      },
+      {
+        "name": "Follow zoom: 4x",
+        "codes": "follow_zoom",
+        "inherit_codes": false,
+        "img": "images/follow_zoom_6.png"
+      }
+    ]
+  },
+  {
+    "name": "Samus position (read-only)",
+    "type": "toggle",
+    "codes": "position_anchor",
+    "img": "images/show_samus.png",
+    "initial_active_state": false
+  },
+  {
+    "name": "Position refresh",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "codes": "position_tick",
+        "inherit_codes": false,
+        "img": "images/show_samus.png"
+      },
+      {
+        "codes": "position_tick",
+        "inherit_codes": false,
+        "img": "images/show_samus.png"
+      }
+    ]
+  },
+  {
+    "name": "Logic difficulty",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "name": "Casual",
+        "codes": "difficulty,difficulty_casual",
+        "inherit_codes": false,
+        "img": "images/difficulty_casual.png"
+      },
+      {
+        "name": "Normal",
+        "codes": "difficulty,difficulty_normal",
+        "inherit_codes": false,
+        "img": "images/difficulty_normal.png"
+      },
+      {
+        "name": "Speedrunner",
+        "codes": "difficulty,difficulty_speedrunner",
+        "inherit_codes": false,
+        "img": "images/difficulty_speedrunner.png"
+      },
+      {
+        "name": "Hard",
+        "codes": "difficulty,difficulty_hard",
+        "inherit_codes": false,
+        "img": "images/difficulty_hard.png"
+      },
+      {
+        "name": "Very Hard",
+        "codes": "difficulty,difficulty_very_hard",
+        "inherit_codes": false,
+        "img": "images/difficulty_very_hard.png"
+      }
+    ]
+  }
+]

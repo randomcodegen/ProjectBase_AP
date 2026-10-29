@@ -1,0 +1,290 @@
+{
+  "tracker_default": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "dock": "left",
+        "margin": 0,
+        "content": [
+          {
+            "type": "canvas",
+            "width": 448,
+            "height": 322,
+            "content": [
+              {
+                "type": "item",
+                "item": "inventory_frame",
+                "canvas_left": 0,
+                "canvas_top": 0,
+                "width": 448,
+                "height": 322
+              },
+              {
+                "type": "item",
+                "item": "charge_beam",
+                "canvas_left": 30,
+                "canvas_top": 143,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "ice_beam",
+                "canvas_left": 30,
+                "canvas_top": 157,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "wave_beam",
+                "canvas_left": 30,
+                "canvas_top": 171,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "spazer",
+                "canvas_left": 30,
+                "canvas_top": 185,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "plasma_beam",
+                "canvas_left": 30,
+                "canvas_top": 199,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "bombs",
+                "canvas_left": 30,
+                "canvas_top": 232,
+                "width": 76,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "varia_suit",
+                "canvas_left": 288,
+                "canvas_top": 68,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "gravity_suit",
+                "canvas_left": 288,
+                "canvas_top": 82,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "morph_ball",
+                "canvas_left": 288,
+                "canvas_top": 128,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "spring_ball",
+                "canvas_left": 288,
+                "canvas_top": 142,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "dash_ball",
+                "canvas_left": 288,
+                "canvas_top": 156,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "screw_attack",
+                "canvas_left": 288,
+                "canvas_top": 170,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "grapple_beam",
+                "canvas_left": 288,
+                "canvas_top": 184,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "xray_scope",
+                "canvas_left": 288,
+                "canvas_top": 198,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "hijump_boots",
+                "canvas_left": 288,
+                "canvas_top": 238,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "space_jump",
+                "canvas_left": 288,
+                "canvas_top": 252,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "speed_booster",
+                "canvas_left": 288,
+                "canvas_top": 266,
+                "width": 132,
+                "height": 12
+              },
+              {
+                "type": "item",
+                "item": "energy_tank",
+                "canvas_left": 24,
+                "canvas_top": 0,
+                "width": 80,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "missile",
+                "canvas_left": 110,
+                "canvas_top": 0,
+                "width": 80,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "super_missile",
+                "canvas_left": 196,
+                "canvas_top": 0,
+                "width": 80,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "power_bomb",
+                "canvas_left": 282,
+                "canvas_top": 0,
+                "width": 80,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "reserve_tank",
+                "canvas_left": 30,
+                "canvas_top": 79,
+                "width": 80,
+                "height": 16
+              },
+              {
+                "type": "item",
+                "item": "inventory_samus",
+                "canvas_left": 146,
+                "canvas_top": 52,
+                "width": 128,
+                "height": 240
+              }
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_size": "48,48",
+            "rows": [["auto_area", "follow_samus", "show_samus", "follow_zoom"]]
+          },
+          {
+            "type": "group",
+            "header": "Logic - click to switch",
+            "content": {
+              "type": "itemgrid",
+              "item_size": "144,32",
+              "rows": [["difficulty"]]
+            }
+          },
+          {
+            "type": "text",
+            "text": "AREA: auto tabs | FOLLOW: full-map camera\nPIN: current screen | ZOOM: KEEP or preset\nSNI required for position. AP supplies checks.\nInventory shows received gear and supplies.\nClick supplies to adjust received pickup packs."
+          }
+        ]
+      },
+      {
+        "type": "tabbed",
+        "tabs": [
+          {
+            "title": "Full Map",
+            "content": {
+              "type": "map",
+              "maps": ["full-map"]
+            }
+          },
+          {
+            "title": "Crateria",
+            "content": {
+              "type": "map",
+              "maps": ["crateria"]
+            }
+          },
+          {
+            "title": "Brinstar",
+            "content": {
+              "type": "map",
+              "maps": ["brinstar"]
+            }
+          },
+          {
+            "title": "Norfair",
+            "content": {
+              "type": "map",
+              "maps": ["norfair"]
+            }
+          },
+          {
+            "title": "Wrecked Ship",
+            "content": {
+              "type": "map",
+              "maps": ["wrecked-ship"]
+            }
+          },
+          {
+            "title": "Maridia",
+            "content": {
+              "type": "map",
+              "maps": ["maridia"]
+            }
+          },
+          {
+            "title": "Tourian",
+            "content": {
+              "type": "map",
+              "maps": ["tourian"]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_broadcast": {
+    "type": "layout",
+    "key": "tracker_default"
+  }
+}
