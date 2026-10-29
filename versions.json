@@ -1,0 +1,13 @@
+{
+  "versions": [
+    {
+      "package_version": "1.0.0",
+      "download_url": "https://github.com/randomcodegen/ProjectBase_AP/releases/download/v1.0.0/projectbase-poptracker.zip",
+      "sha256": "f8f3037ad1d7ab0c4d35321878f4b6d548a38c648195dd992481ea87ac4653a1",
+      "changelog": [
+        "Project Base PopTracker 1.0.0.",
+        "Release notes: https://github.com/randomcodegen/ProjectBase_AP/releases/tag/v1.0.0"
+      ]
+    }
+  ]
+}
