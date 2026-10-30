@@ -1,4 +1,4 @@
-# Project Base Archipelago setup (1.0.0)
+# Project Base Archipelago setup (1.0.1)
 
 Supply clean **Super Metroid (Japan, USA)** and **A Link to the Past Japan 1.0** ROMs (`.sfc` or `.smc`).  
 AP automatically reconstructs Project Base 0.8.4.2 using its bundled graphics-stripped PB patch, then applies your seed.
@@ -25,6 +25,8 @@ The source randomizer has no final-goal logic, so `GOAL_RULE` and
 `GOAL_COUNTS` in `rules.py` are conservative added requirements.  
 They require Varia, Ice, Charge, the boss routes, at least three Energy Tanks, ten Missile
 packs and five Super Missile packs.
+
+The item pool marks 10 Missile packs, 5 Super Missile packs and 2 Power Bomb packs as progression to cover the goal and route requirements.
 
 DeathLink is not supported yet.
 

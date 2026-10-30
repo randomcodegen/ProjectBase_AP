@@ -17,7 +17,7 @@ from .features import from_options
 from .options import ProjectBaseOptions
 from .patch import GAME, ProjectBaseSettings, ProjectBaseProcedurePatch, seed_bytes
 from .rom import Placement, rom_title
-from .rules import can_escape, set_rules
+from .rules import GOAL_COUNTS, can_escape, set_rules
 from .version_0842 import LOCATIONS, LOCATION_AREAS, LOCATION_NAME_TO_ID
 
 
@@ -112,7 +112,31 @@ class ProjectBaseWorld(World):
         return ProjectBaseItem(name, classification, ITEM_NAME_TO_ID[name], self.player)
 
     def create_items(self):
-        self.multiworld.itempool.extend(self.create_item(name) for name in pool_names())
+        # keep enough items for every ammo threshold in the logic
+        remaining = {
+            name: max(
+                1,
+                GOAL_COUNTS.get(name, 0),
+                *(
+                    count
+                    for item, count in self.logic_settings.counts.values()
+                    if item == name
+                ),
+            )
+            for name in self.item_name_groups["Ammo"]
+        }
+        for name in pool_names():
+            item = self.create_item(name)
+            if name in remaining:
+                if remaining[name] <= 0:
+                    item.classification = ItemClassification.filler
+                remaining[name] -= 1
+            self.multiworld.itempool.append(item)
+
+    def create_filler(self):
+        item = self.create_item(self.get_filler_item_name())
+        item.classification = ItemClassification.filler
+        return item
 
     def get_filler_item_name(self):
         return "Missile"
